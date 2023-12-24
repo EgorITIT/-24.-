@@ -1,0 +1,37 @@
+.asdf1 .conternt-wrapper {
+    width: 100%;
+    order: 3;
+}
+.asdf1 .conternt-wrapper {
+    padding: 0 2rem;
+}
+.asdf1 .conternt-wrapper .price-wrapper {
+    margin-bottom: 6px;
+    min-height: 46px;
+}
+.asdf1 .conternt-wrapper .price-wrapper span.new_price {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.4;
+    color: #f24841;
+    margin-right: 8px;
+ }
+ 
+.asdf1 .conternt-wrapper .price-wrapper span.economy {
+    padding: 2px 8px;
+    background-color: #ffd901;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 10px !important;
+    line-height: 14px;
+    margin-top: 4px;
+    color: #000;
+}
+
+
+
+
+     <div class="conternt-wrapper"></div>
+        <div class="price-wrapper"></div>
+        <span class="new_wrapper">940 руб.</span>
+        <span class="economy">Экономия 460 руб.</span>

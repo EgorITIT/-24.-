@@ -1,0 +1,137 @@
+.dropdown-menu {
+    text-align: center;
+}
+.header {
+    width: 100%;
+    height: 10vh;
+    position: fixed;
+    top: 0em;
+    background-color: rgb(240, 248, 255);
+    z-index: 2;
+    
+}
+.main228 {
+    width: 100%;
+    height: 100vh;
+    margin-top: 10vh;
+    background-image: url("offer_bg.png");
+    background-size: 100% 100%;
+}
+.foot1{
+    width: 200px;
+    height: 5%;
+    margin-right: 50%;
+}
+.foot2{
+    width: 45px;
+    height: 50%;
+}
+footer{
+    width: 100%;
+    background-color: rgb(234, 236, 236);
+    height: 22vh;
+}
+.kolonki {
+    width: 70%;
+    height: 100%;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left: 15%;
+}
+.ptexter1 {
+    font-size: 12px;
+}
+.ahreffpol {
+    color: black;
+}
+.ptexter2 {
+    font-size: 14px;
+}
+.footimgers {
+    width: 50%;
+    height: 10vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+    text-align: center;
+}
+.elochka{  
+    position: fixed;
+    top: 450px;
+    animation: pulsing 4s infinite;
+ }
+ @keyframes pulsing{
+   0% { transform: scale(0.7,0.7);
+ 
+ }
+ 50% {
+   transform: scale(1.0,1.0);
+ }
+ 100% {
+   transform: scale(0.7,0.7);
+ }
+ }
+ .elockaaq1{
+    width: 100px;
+    height: 100px;
+ }
+ .hui {
+    border-radius: 8px;
+    background: linear-gradient(90deg,#4b88f6 0%,#2366e0 42.75%,#0049cd 100%);
+    padding: 8px 16px;
+    color: #fff;
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    display: inline-block;
+    width: fit-content;
+    text-transform: uppercase;
+}
+.hui3{
+    border-radius: 8px;
+    padding: 8px 16px;
+    color: black;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    width: fit-content;
+    margin-left: 16%;
+    padding-top: 12%;
+}
+#snow-animation-container{
+    width: 100px;
+}
+.cond{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.cond1{
+    border: 1px solid rgb(114, 112, 112);
+    width: 200px;
+}
+.cond2{
+    border: 1px solid rgb(114, 112, 112);
+    width: 200px;
+}
+.cond3{
+    border: 1px solid rgb(114, 112, 112);
+    width: 200px;
+}
+.cond4{
+    border: 1px solid rgb(114, 112, 112);
+    width: 200px;
+}
+.cond5{
+    border: 1px solid rgb(114, 112, 112);
+    width: 200px;
+}
+.cond6{
+    border: 1px solid rgb(114, 112, 112);
+    width: 200px;
+}
+.wqh{
+    color: black;
+}

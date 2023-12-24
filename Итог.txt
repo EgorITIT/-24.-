@@ -1,0 +1,63 @@
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<div class="maket">
+    <header>
+        <div class="logo">
+            <p>Логотип</p>
+        </div>
+        <div class="navigation">
+            <div> <p>Кнопка 1</p> </div>
+            <div> <p>Кнопка 2</p> </div>
+            <div> <p>Кнопка 3</p> </div>
+        </div>
+        <div class="social">
+            <img src="android-chrome-192x192.png">
+            <img src="VK_Compact_Logo_(2021-present).svg.png">
+            <img src="pngtree-three-dimensional-instagram-icon-png-image_9015419.png">
+        </div>
+        </header>
+        </div>
+
+.maket{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr 9fr;
+    gap: 10px;
+}
+header{
+    display: flex;
+    position: sticky;
+    top: 2em;
+}
+.logo{
+    flex: 0 0 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navigation{    
+    flex: 1 0 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navigation div{
+    width: 100px;
+    height: 30px;
+    border: 3px solid black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+    text-align: center;
+}
+.social{
+    flex: 0 0 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.social img{
+    width: 50px;
+    height: 50px;
+}
